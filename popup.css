@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333; /* Background color for the body */
+
+}
+
+.popup {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff; /* Text color */
+  background-color: #333; /* Background color for the title */
+  padding: 20px; /* Padding for the title */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: -20px;
+
+}
+
+.button {
+  font-size: 24px; 
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.download-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  width: 160px; /* Fixed width for the buttons */
+  height: 60px; /* Fixed height for the buttons */
+}
+
+#showDialog {
+  background-color: #f44336; /* Red */
+  color: white;
+  width: 100px; /* Fixed width for the buttons */
+  height: 30px; /* Fixed height for the buttons */
+
+}
+
+.button-spacing {
+  margin: 20px 0;
+}
+
+/* Hover effect for buttons */
+.download-button:hover, #showDialog:hover {
+  opacity: 0.8;
+}
+
+
+/* Custom style confirmation dialog */
+.hidden {
+  display: none;
+}
+
+.dialog {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#customConfirm button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+#confirmYes {
+  background-color: red;
+}
+#confirmYes:hover{
+  background-color: rgb(224, 9, 9);
+}
+#confirmNo{
+  background-color: blue;
+}
+#confirmNo:hover{
+  background-color: rgb(33, 33, 228);
+}
+
+  

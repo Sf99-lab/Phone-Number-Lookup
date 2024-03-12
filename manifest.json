@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Phone Look-Up",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+   "permissions": [
+    "activeTab",
+    "tabs","storage"
+  ],
+
+  "content_scripts": [
+    {
+        "matches": ["*://number.false.ae/*"],
+      "js": ["content.js"]
+        
+    }
+]
+}
