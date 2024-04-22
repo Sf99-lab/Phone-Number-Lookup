@@ -1,7 +1,6 @@
 ﻿# Phone-Number-Lookup
 ------------------------------------------------------------
-This chrome extension extracts all Possible mobiles number for Oman (+968)
-With all names (between 1 - 20) for each phone from this website https://number.false.ae/
+This chrome extension extracts all Possible mobiles number for different countries with all names (between 1 - 20) for each phone from this website https://number.false.ae/
 After extraction, the data is available in CSV format.
 
 Working of the Extension:
